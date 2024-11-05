@@ -1,0 +1,15 @@
+
+Take 15 images
+
+Downsample using various filters (or none)
+-catrom (cubic)
+-None (no interpolation)
+-Linear * MAKE SURE THEY ARE NOT BLURRING
+-Triangle / Bilinear (may be same)
+-lanczos
+The script didnt like bilinear and linear
+
+
+Write a script that takes the 15 images and use them on the train_image.py
+
+Change the code so that way we can choose a random downsampling while training. This may lead to a better NN that is more robust.
